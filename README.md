@@ -1,3 +1,10 @@
-Mod 5 Project
+Mod 5 Project Backend
 
-Backend built with Rails for my final project at The Flatiron School
+Built with:
+	-bcrypt
+	-FastJSON API
+	-JSON
+	-JWT
+	-PostgresQL
+	-Ruby
+	-Ruby On Rails
