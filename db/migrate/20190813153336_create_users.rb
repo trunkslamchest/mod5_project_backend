@@ -9,7 +9,7 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :last_name
       t.string :gender
       t.integer :birth_day
-      t.integer :birth_month
+      t.string :birth_month
       t.integer :birth_year
       t.integer :house_number
       t.string :street_name

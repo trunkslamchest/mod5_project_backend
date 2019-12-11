@@ -1,4 +1,18 @@
 numbers = (1..100).to_a
+months = [
+		"Jaunary",
+		"Februrary",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	]
 
 	User.create(
 		user_name: "admin1",
@@ -7,9 +21,9 @@ numbers = (1..100).to_a
 		access: "admin",
 		first_name: "admin",
 		last_name: "admin",
-		gender: "admin",
-		birth_day: 1,
-		birth_month: 1,
+		gender: "Attack Helicopter",
+		birth_day: 69,
+		birth_month: "Augtober",
 		birth_year: 2001,
 		house_number: 8888,
 		street_name: "Admin Street",
@@ -27,7 +41,7 @@ numbers = (1..100).to_a
 			last_name: Faker::Name.last_name,
 			gender: Faker::Gender.binary_type,
 			birth_day: rand(1..28),
-			birth_month: rand(1..12),
+			birth_month: "#{months.sample}",
 			birth_year: rand(1950..2005),
 			house_number: rand(1..999),
 			street_name: "#{Faker::Address.street_name} #{Faker::Address.street_suffix}",
