@@ -22,7 +22,7 @@ months = [
 		first_name: "admin",
 		last_name: "admin",
 		gender: "Attack Helicopter",
-		birth_day: 69,
+		birth_day: 12,
 		birth_month: "Augtober",
 		birth_year: 2001,
 		house_number: 8888,
