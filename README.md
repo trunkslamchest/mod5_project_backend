@@ -1,4 +1,4 @@
-Mod 5 Project Backend
+Mod 5 Final Project Backend
 
 Built with:
 	-bcrypt
