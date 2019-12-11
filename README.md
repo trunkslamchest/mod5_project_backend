@@ -1,7 +1,7 @@
 Mod 5 Final Project Backend
 
 Built with:
-	| bcrypt
+	bcrypt
 	| FastJSON API
 	| JSON
 	| JWT
