@@ -18,21 +18,9 @@ class UsersSerializer
       city_town: user_obj.city_town,
       state: user_obj.state,
       zip_code: user_obj.zip_code,
-      join_day: user_obj.created_at.strftime("%e"),
+      join_day: user_obj.created_at.strftime("%e").to_i,
       join_month: user_obj.created_at.strftime("%B"),
-      join_year: user_obj.created_at.strftime("%Y"),
+      join_year: user_obj.created_at.strftime("%Y").to_i,
     }
   end
-
-  # attribute :cart_items do |user_obj|
-  #       user_obj.cart_items.map do |cart_obj|
-  #        {
-  #          id: cart_obj.id,
-  #          user_id: cart_obj.user_id,
-  #          item_id: cart_obj.item_id,
-  #          cart_quantity: cart_obj.cart_quantity
-  #        }
-  #       end
-  #     # }
-  # end
 end
