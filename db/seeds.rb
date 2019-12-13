@@ -50,3 +50,5 @@ months = [
 			zip_code: rand(10000..99999)
 		)
 	}
+	
+Traffic.create(user_id: 1, interaction: "click", element: "test_button3")

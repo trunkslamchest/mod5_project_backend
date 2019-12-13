@@ -1,0 +1,2 @@
+class Traffic < ApplicationRecord
+end
