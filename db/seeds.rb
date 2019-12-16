@@ -13,8 +13,9 @@ months = [
 		"November",
 		"December"
 	]
-	
+
 Traffic.destroy_all
+Page.destroy_all
 
 # 	User.create(
 # 		user_name: "admin1",
@@ -54,3 +55,5 @@ Traffic.destroy_all
 # 	}
 	
 # Traffic.create(user_id: 1, interaction: "click", element: "test_button3")
+
+Page.create(user_id: 1, page_name: "index")

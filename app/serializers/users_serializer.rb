@@ -4,6 +4,7 @@ class UsersSerializer
 
   attribute :user do |user_obj|
     {
+      id: user_obj.id,
       user_name: user_obj.user_name,
       email: user_obj.email,
       access: user_obj.access,
