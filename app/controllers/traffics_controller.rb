@@ -1,7 +1,7 @@
 class TrafficsController < ApplicationController
 
 	def index
-		@traffics = Traffic.order(id: :desc)
+		@traffics = Traffic.order(id: :desc).limit(100)
 		render json: TrafficSerializer.new(@traffics).serialized_json, include: "**"
 	end
 
