@@ -1,3 +1,7 @@
+
+file = File.read('api.json')
+data_hash = JSON.parse(file)
+
 numbers = (1..100).to_a
 months = [
 		"Jaunary",
@@ -14,8 +18,20 @@ months = [
 		"December"
 	]
 
-Traffic.destroy_all
-Page.destroy_all
+User.destroy_all
+Question.destroy_all
+# Traffic.destroy_all
+# Page.destroy_all
+
+
+data_hash["results"].each do |question| Question.create(
+												category: question["category"],
+												difficulty: question["difficulty"],
+												question_desc: question["question"],
+												correct_answer: question["correct_answer"],
+												incorrect_answers: question["incorrect_answers"]
+												)
+											end
 
 	User.create(
 		user_name: "admin1",
@@ -53,7 +69,7 @@ Page.destroy_all
 			zip_code: rand(10000..99999)
 		)
 	}
-	
+
 # Traffic.create(user_id: 1, interaction: "click", element: "test_button3")
 
 # Page.create(user_id: 1, page_name: "index")

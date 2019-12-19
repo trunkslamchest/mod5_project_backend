@@ -50,3 +50,4 @@ gem "dotenv-rails", "~> 2.7"
 
 gem 'fast_jsonapi'
 gem 'faker'
+gem 'json'
