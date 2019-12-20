@@ -33,8 +33,8 @@ class QuestionsController < ApplicationController
 							correct_answer: @question.correct_answer,
 							incorrect_answers: @question.incorrect_answers
 						}
-		# else
-		# 	render json: { errors: @question.errors.full_messages }, status: :unprocessable_entity
+		else
+			render json: { errors: @question.errors.full_messages }, status: :unprocessable_entity
 		end
 	end
 
