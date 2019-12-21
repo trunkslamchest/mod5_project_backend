@@ -20,8 +20,8 @@ months = [
 
 User.destroy_all
 Question.destroy_all
-# Traffic.destroy_all
-# Page.destroy_all
+Traffic.destroy_all
+Page.destroy_all
 
 
 data_hash["results"].each do |question| Question.create(
@@ -70,6 +70,6 @@ data_hash["results"].each do |question| Question.create(
 		)
 	}
 
-# Traffic.create(user_id: 1, interaction: "click", element: "test_button3")
+Traffic.create(user_id: 1, interaction: "click", element: "test_button3")
 
-# Page.create(user_id: 1, page_name: "index")
+Page.create(user_id: 1, page_name: "index")

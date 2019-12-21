@@ -56,7 +56,8 @@ ActiveRecord::Schema.define(version: 2019_12_18_204117) do
     t.string "city_town"
     t.string "state"
     t.integer "zip_code"
-    t.date "created_at", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
