@@ -6,9 +6,9 @@
 
 .env
 
-**/db
-**/db/migrate
-db
+# **/db
+# **/db/migrate
+# db
 **/lib
 **/log
 **/storage
