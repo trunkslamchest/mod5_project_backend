@@ -34,7 +34,7 @@ data_hash["results"].each do |question| Question.create(
 											end
 
 	User.create(
-		user_name: "admin",
+		user_name: "admin1",
 		password: "123",
 		email: "admin@admin.com",
 		access: "admin",

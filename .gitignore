@@ -27,3 +27,6 @@
 
 # Ignore all database files
 /db/*
+/db/migrate/*
+!/db/.rb
+!/db/migrate/.rb
