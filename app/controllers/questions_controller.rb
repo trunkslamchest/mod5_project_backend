@@ -2,12 +2,12 @@ class QuestionsController < ApplicationController
 
 	def index
 		@questions = Question.order(id: :desc)
-		render json: QuestionSerializer.new(@questions).serialized_json, include: "**"
+		render json: QuestionSerializer.new(@questions).serialized_json
 	end
 
 	def show
 		@question = Question.find(params[:id])
-		render json: QuestionSerializer.new(@question).serialized_json, include: "**"
+		render json: QuestionSerializer.new(@question).serialized_json
 	end
 
 	def create
@@ -52,7 +52,7 @@ private
 	def update_question_params
 		params.require(:question).permit(:question_desc, :difficulty, :category, :correct_answer, incorrect_answers: [] )
 	end
-	
+
 	def create_question_params
 		params.require(:question).permit(:question_desc, :difficulty, :category, :correct_answer, incorrect_answers: [] )
 	end
