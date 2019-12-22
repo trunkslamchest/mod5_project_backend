@@ -10,12 +10,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
-!/log/.keep
-!/tmp/.keep
+# !/log/.keep
+# !/tmp/.keep
 
 # Ignore uploaded files in development
 /storage/*
-!/storage/.keep
+# !/storage/.keep
 
 .byebug_history
 
@@ -26,7 +26,7 @@
 .env
 
 # Ignore all database files
-/db/*
-/db/migrate/*
-!/db/.rb
-!/db/migrate/.rb
+# /db/migrate/*
+# /db/*
+/db/
+/db/migrate/
