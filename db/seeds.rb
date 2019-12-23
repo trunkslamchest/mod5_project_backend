@@ -2,18 +2,19 @@
 # Question.destroy_all
 # Traffic.destroy_all
 # Page.destroy_all
+Answer.destroy_all
 
-Answer.create(user_id: 1, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
-Answer.create(user_id: 1, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
-Answer.create(user_id: 1, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
+# Answer.create(user_id: 1, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
+# Answer.create(user_id: 1, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
+# Answer.create(user_id: 1, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
 
-Answer.create(user_id: 2, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
-Answer.create(user_id: 2, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
-Answer.create(user_id: 2, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
+# Answer.create(user_id: 2, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
+# Answer.create(user_id: 2, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
+# Answer.create(user_id: 2, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
 
-Answer.create(user_id: 2, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
-Answer.create(user_id: 2, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
-Answer.create(user_id: 2, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
+# Answer.create(user_id: 2, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
+# Answer.create(user_id: 2, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
+# Answer.create(user_id: 2, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
 
 
 # file = File.read('api.json')
