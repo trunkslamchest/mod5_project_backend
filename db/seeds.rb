@@ -4,7 +4,7 @@
 # Page.destroy_all
 Answer.destroy_all
 
-# Answer.create(user_id: 1, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct")
+# Answer.create(user_id: 1, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct", user_time: 3.66)
 # Answer.create(user_id: 1, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
 # Answer.create(user_id: 1, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
 

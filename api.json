@@ -2,10 +2,10 @@
   "response_code": 0,
   "results": [
     {
-      "category": "Entertainment: Film",
+      "category": "Film",
       "type": "multiple",
-      "difficulty": "easy",
-      "question": "What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+      "difficulty": "Easy",
+      "question": "What breed of dog was Marley in the film Marley & Me?",
       "correct_answer": "Labrador Retriever",
       "incorrect_answers": [
         "Golden Retriever",
@@ -14,9 +14,9 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
+      "category": "Film",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "Which of the following movies was not based on a novel by Stephen King? ",
       "correct_answer": "The Thing",
       "incorrect_answers": [
@@ -28,7 +28,7 @@
     {
       "category": "History",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "The seed drill was invented by which British inventor?",
       "correct_answer": "Jethro Tull",
       "incorrect_answers": [
@@ -40,7 +40,7 @@
     {
       "category": "Politics",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "Who was the British Prime Minister at the outbreak of the Second World War?",
       "correct_answer": "Neville Chamberlain",
       "incorrect_answers": [
@@ -50,10 +50,10 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which band had hits in 1975 with the songs, &#039;One Of These Nights&#039; &amp; &#039;Lyin Eyes&#039;?",
+      "difficulty": "Medium",
+      "question": "Which band had hits in 1975 with the songs: One Of These Nights & Lyin' Eyes?",
       "correct_answer": "The Eagles",
       "incorrect_answers": [
         "Fools Gold",
@@ -62,10 +62,10 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
+      "category": "Film",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which actor played the main character in the 1990 film &quot;Edward Scissorhands&quot;?",
+      "difficulty": "Medium",
+      "question": "Which actor played the main character in the 1990 film Edward Scissorhands?",
       "correct_answer": "Johnny Depp",
       "incorrect_answers": [
         " Clint Eastwood",
@@ -74,10 +74,10 @@
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Books",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?",
+      "difficulty": "Medium",
+      "question": "Who wrote the 1967 horror novel Rosemary's Baby?",
       "correct_answer": "Ira Levin",
       "incorrect_answers": [
         "Stephen King",
@@ -86,9 +86,9 @@
       ]
     },
     {
-      "category": "Science: Computers",
+      "category": "Computers",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "What was the name of the security vulnerability found in Bash in 2014?",
       "correct_answer": "Shellshock",
       "incorrect_answers": [
@@ -100,7 +100,7 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "Which of these countries is NOT a part of the Asian continent?",
       "correct_answer": "Suriname",
       "incorrect_answers": [
@@ -110,10 +110,10 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "easy",
-      "question": "Who is Sonic&#039;s sidekick?",
+      "difficulty": "Easy",
+      "question": "Who is Sonic's sidekick?",
       "correct_answer": "Tails",
       "incorrect_answers": [
         "Shadow",
@@ -122,9 +122,9 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "How many studio albums have the duo Daft Punk released?",
       "correct_answer": "4",
       "incorrect_answers": [
@@ -136,7 +136,7 @@
     {
       "category": "Mythology",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "Who was the Roman god of fire?",
       "correct_answer": "Vulcan",
       "incorrect_answers": [
@@ -148,7 +148,7 @@
     {
       "category": "Sports",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "A stimpmeter measures the speed of a ball over what surface?",
       "correct_answer": "Golf Putting Green",
       "incorrect_answers": [
@@ -160,7 +160,7 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "What is the name of the capital of Turkey?",
       "correct_answer": "Ankara",
       "incorrect_answers": [
@@ -170,9 +170,9 @@
       ]
     },
     {
-      "category": "Science & Nature",
+      "category": "Science",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "What is the powerhouse of the cell?",
       "correct_answer": "Mitochondria",
       "incorrect_answers": [
@@ -182,9 +182,9 @@
       ]
     },
     {
-      "category": "Science: Computers",
+      "category": "Computers",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "How many Hz does the video standard PAL support?",
       "correct_answer": "50",
       "incorrect_answers": [
@@ -196,7 +196,7 @@
     {
       "category": "Politics",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
       "correct_answer": "Tonga",
       "incorrect_answers": [
@@ -206,9 +206,9 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "EDM producer Marshmello performs live wearing clothes and a marshmallow mask of what colour?",
       "correct_answer": "White",
       "incorrect_answers": [
@@ -218,10 +218,10 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "How much does the &#039;AWP&#039; cost in Counter-Strike: Global Offensive?",
+      "difficulty": "Medium",
+      "question": "How much does the AWP cost in Counter-Strike: Global Offensive?",
       "correct_answer": "$4750",
       "incorrect_answers": [
         "$4500",
@@ -230,10 +230,10 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
+      "category": "Film",
       "type": "multiple",
-      "difficulty": "hard",
-      "question": "What was the name of the planet in &quot;Aliens&quot;?",
+      "difficulty": "Hard",
+      "question": "What was the name of the planet in Aliens?",
       "correct_answer": "LV-426",
       "incorrect_answers": [
         "Weyland Yutani Corporation Base",
@@ -242,9 +242,9 @@
       ]
     },
     {
-      "category": "Science & Nature",
+      "category": "Science",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "Which of these chemical compounds is NOT found in gastric acid?",
       "correct_answer": "Sulfuric acid",
       "incorrect_answers": [
@@ -256,7 +256,7 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "The historical city Timbuktu is located in which West African country?",
       "correct_answer": "Mali",
       "incorrect_answers": [
@@ -266,10 +266,10 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song &quot;Paper Planes&quot;?",
+      "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song Paper Planes?",
       "correct_answer": "M.I.A.",
       "incorrect_answers": [
         "K.I.A.",
@@ -278,10 +278,10 @@
       ]
     },
     {
-      "category": "Entertainment: Japanese Anime & Manga",
+      "category": "Anime",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "The main protagonist of the fourth part of JoJo&#039;s Bizarre Adventure is which of the following?",
+      "difficulty": "Medium",
+      "question": "The main protagonist of the fourth part of JoJo's Bizarre Adventure is which of the following?",
       "correct_answer": "Josuke Higashikata",
       "incorrect_answers": [
         "Yoshikage kira",
@@ -290,9 +290,9 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
+      "category": "Film",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "Which one of these films are shot entirely in one-take?",
       "correct_answer": "Russian Ark",
       "incorrect_answers": [
@@ -304,7 +304,7 @@
     {
       "category": "Vehicles",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "Which one of these chassis codes are used by BMW 3-series?",
       "correct_answer": "E46",
       "incorrect_answers": [
@@ -314,11 +314,11 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "The Touhou Project series of games is often associated with which genre?",
-      "correct_answer": "Shoot &#039;em up",
+      "correct_answer": "Shoot 'em up",
       "incorrect_answers": [
         "Strategy",
         "FPS",
@@ -328,7 +328,7 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "What is the Capital of the United States?",
       "correct_answer": "Washington, D.C.",
       "incorrect_answers": [
@@ -340,8 +340,8 @@
     {
       "category": "History",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?",
+      "difficulty": "Medium",
+      "question": "What year did the Boxing Day Earthquake & Tsunami occur in the Indian Ocean?",
       "correct_answer": "2004",
       "incorrect_answers": [
         "2006",
@@ -350,9 +350,9 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "Which is not a playable character in the 2005 video game Killer7?",
       "correct_answer": "Frank Smith",
       "incorrect_answers": [
@@ -364,7 +364,7 @@
     {
       "category": "History",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "What were the first states to break away from Yugoslavia?",
       "correct_answer": "Slovenia, Croatia",
       "incorrect_answers": [
@@ -374,10 +374,10 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "hard",
-      "question": "What animal is on Link&#039;s pajamas in The Legend of Zelda: The Wind Waker?",
+      "difficulty": "Hard",
+      "question": "What animal is on Link's pajamas in The Legend of Zelda: The Wind Waker?",
       "correct_answer": "Crawfish",
       "incorrect_answers": [
         "Lobster",
@@ -388,7 +388,7 @@
     {
       "category": "Entertainment: Music",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "The key of sharps does the key of G# minor contain?",
       "correct_answer": "5",
       "incorrect_answers": [
@@ -398,9 +398,9 @@
       ]
     },
     {
-      "category": "Entertainment: Musicals & Theatres",
+      "category": "Theatre",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "How many plays is Shakespeare generally considered to have written?",
       "correct_answer": "37",
       "incorrect_answers": [
@@ -412,19 +412,19 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which country has the abbreviation &quot;CH&quot;?",
+      "difficulty": "Medium",
+      "question": "Which country has the abbreviation CH?",
       "correct_answer": "Switzerland",
       "incorrect_answers": [
         "China",
         "Canada",
-        "No Country"
+        "Kenya"
       ]
     },
     {
-      "category": "Science: Computers",
+      "category": "Computers",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "Who is the original author of the realtime physics engine called PhysX?",
       "correct_answer": "NovodeX",
       "incorrect_answers": [
@@ -436,7 +436,7 @@
     {
       "category": "History",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "When was the city of Rome, Italy founded?",
       "correct_answer": "753 BCE",
       "incorrect_answers": [
@@ -448,7 +448,7 @@
     {
       "category": "Vehicles",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "What nickname was given to Air Canada Flight 143 after it ran out of fuel and glided to safety in 1983?",
       "correct_answer": "Gimli Glider",
       "incorrect_answers": [
@@ -458,10 +458,10 @@
       ]
     },
     {
-      "category": "Entertainment: Japanese Anime & Manga",
+      "category": "Anime",
       "type": "multiple",
-      "difficulty": "easy",
-      "question": "The characters of &quot;Log Horizon&quot; are trapped in what game?",
+      "difficulty": "Easy",
+      "question": "The characters of Log Horizon are trapped in what game?",
       "correct_answer": "Elder Tale",
       "incorrect_answers": [
         "Sword Art Online",
@@ -472,7 +472,7 @@
     {
       "category": "History",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "The United States Army Air Corps became the United States Air Force on what date?",
       "correct_answer": "September 18, 1947",
       "incorrect_answers": [
@@ -482,22 +482,22 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "hard",
-      "question": "In &quot;Earthbound&quot;, how does one enter &quot;Master Belch&#039;s&quot; factory?",
-      "correct_answer": "Wait 3 Minutes",
+      "difficulty": "Hard",
+      "question": "In Earthbound, how does one enter Master Belch's factory?",
+      "correct_answer": "Wait 3 for Minutes",
       "incorrect_answers": [
-        "Enter the password &quot;Fly Honey&quot;",
-        "Enter the password &quot;Master Belch Rules&quot;",
-        "Enter the password &quot;Mr Saturn Drools&quot;"
+        "Wait 5 for Minutes",
+        "Enter the password 'Master Belch Rules'",
+        "Enter the password 'Mr Saturn Drools'"
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which of these blocks in &quot;Minecraft&quot; has the lowest blast resistance?",
+      "difficulty": "Medium",
+      "question": "Which of these blocks in Minecraft has the lowest blast resistance?",
       "correct_answer": "Sand",
       "incorrect_answers": [
         "End Stone",
@@ -508,7 +508,7 @@
     {
       "category": "Geography",
       "type": "multiple",
-      "difficulty": "hard",
+      "difficulty": "Hard",
       "question": "What is the land connecting North America and South America?",
       "correct_answer": "Isthmus of Panama",
       "incorrect_answers": [
@@ -518,10 +518,10 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar&#039;s 2017 album, &quot;DAMN.&quot;?",
+      "question": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, DAMN?",
       "correct_answer": "U2",
       "incorrect_answers": [
         "Radiohead",
@@ -530,10 +530,10 @@
       ]
     },
     {
-      "category": "Entertainment: Television",
+      "category": "Television",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "What episode of &quot;Mr. Bean&quot; saw him trying to prevent people from seeing him naked?",
+      "difficulty": "Medium",
+      "question": "What episode of Mr. Bean saw him trying to prevent people from seeing him naked?",
       "correct_answer": "Mr. Bean in Room 426",
       "incorrect_answers": [
         "Mr. Bean Goes to Town",
@@ -542,10 +542,10 @@
       ]
     },
     {
-      "category": "Entertainment: Video Games",
+      "category": "Video Games",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "In &quot;Call of Duty: Zombies&quot;, what group does Doctor Maxis work for?",
+      "difficulty": "Medium",
+      "question": "In Call of Duty: Zombies, what group does Doctor Maxis work for?",
       "correct_answer": "Group 935",
       "incorrect_answers": [
         "Group Reanimate",
@@ -556,7 +556,7 @@
     {
       "category": "Entertainment: Film",
       "type": "multiple",
-      "difficulty": "medium",
+      "difficulty": "Medium",
       "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
       "correct_answer": "Gopher",
       "incorrect_answers": [
@@ -568,7 +568,7 @@
     {
       "category": "History",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "Which of the following was Brazil was a former colony under?",
       "correct_answer": "Portugal",
       "incorrect_answers": [
@@ -578,13 +578,13 @@
       ]
     },
     {
-      "category": "Entertainment: Japanese Anime & Manga",
+      "category": "Anime",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which Japanese music group was formed to produce theme music for the anime &quot;Guilty Crown&quot;?",
+      "difficulty": "Medium",
+      "question": "Which Japanese music group was formed to produce theme music for the anime Guilty Crown?",
       "correct_answer": "Egoist",
       "incorrect_answers": [
-        "Goose house",
+        "Goose House",
         "Babymetal",
         "Garnidelia"
       ]
@@ -592,7 +592,7 @@
     {
       "category": "General Knowledge",
       "type": "multiple",
-      "difficulty": "easy",
+      "difficulty": "Easy",
       "question": "Which of the following is the IATA code for Manchester Airport?",
       "correct_answer": "MAN",
       "incorrect_answers": [

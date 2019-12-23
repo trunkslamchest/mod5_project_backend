@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2019_12_22_160307) do
     t.integer "question_id"
     t.string "user_answer"
     t.string "user_result"
+    t.decimal "user_time", precision: 10, scale: 2
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

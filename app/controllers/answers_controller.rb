@@ -17,7 +17,8 @@ class AnswersController < ApplicationController
 			user_id: answer.user_id,
 			question_id: answer.question_id,
 			user_answer: answer.user_answer,
-			user_result: answer.user_result
+			user_result: answer.user_result,
+			user_time: answer.user_time,
 		}
 	end
 
@@ -30,7 +31,7 @@ class AnswersController < ApplicationController
 private
 
 	def create_answer_params
-		params.require(:answer).permit(:user_id, :question_id, :user_answer, :user_result)
+		params.require(:answer).permit(:user_id, :question_id, :user_answer, :user_result, :user_time)
 	end
 
 end
