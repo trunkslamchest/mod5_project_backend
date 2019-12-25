@@ -1,7 +1,7 @@
 class QuestionSerializer
   include FastJsonapi::ObjectSerializer
 
-  attributes :question, :answers
+  attributes :question, :answers, :votes
 
   attribute :question do |question_obj|
     {

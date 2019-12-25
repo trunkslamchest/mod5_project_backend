@@ -1,8 +1,27 @@
 # User.destroy_all
-# Question.destroy_all
+
+Question.destroy_all
+Answer.destroy_all
+# Vote.destroy_all
+
 # Traffic.destroy_all
 # Page.destroy_all
-Answer.destroy_all
+
+# 	Traffic.create(user_id: 1, interaction: "click", element: "test_button3")
+
+# 	Page.create(user_id: 1, page_name: "index")
+
+# Vote.create(user_id: 1, question_id: 1, vote_num: 1)
+# Vote.create(user_id: 1, question_id: 2, vote_num: 0)
+# Vote.create(user_id: 1, question_id: 3, vote_num: -1)
+
+# Vote.create(user_id: 2, question_id: 1, vote_num: 1)
+# Vote.create(user_id: 2, question_id: 2, vote_num: 0)
+# Vote.create(user_id: 2, question_id: 3, vote_num: -1)
+
+# Vote.create(user_id: 3, question_id: 4, vote_num: 1)
+# Vote.create(user_id: 3, question_id: 5, vote_num: 0)
+# Vote.create(user_id: 3, question_id: 6, vote_num: -1)
 
 # Answer.create(user_id: 1, question_id: 1, user_answer: "Labrador Retriever", user_result: "correct", user_time: 3.66)
 # Answer.create(user_id: 1, question_id: 2, user_answer: "Carrie", user_result: "incorrect")
@@ -17,8 +36,18 @@ Answer.destroy_all
 # Answer.create(user_id: 2, question_id: 3, user_answer: "Isaac Newton", user_result: "incorrect")
 
 
-# file = File.read('api.json')
-# data_hash = JSON.parse(file)
+file = File.read('api.json')
+data_hash = JSON.parse(file)
+
+	data_hash["results"].each do |question|
+		Question.create(
+			category: question["category"],
+			difficulty: question["difficulty"],
+			question_desc: question["question"],
+			correct_answer: question["correct_answer"],
+			incorrect_answers: question["incorrect_answers"]
+		)
+	end
 
 # numbers = (1..100).to_a
 # months = [
@@ -35,16 +64,6 @@ Answer.destroy_all
 # 		"November",
 # 		"December"
 # 	]
-
-# 	data_hash["results"].each do |question|
-# 		Question.create(
-# 			category: question["category"],
-# 			difficulty: question["difficulty"],
-# 			question_desc: question["question"],
-# 			correct_answer: question["correct_answer"],
-# 			incorrect_answers: question["incorrect_answers"]
-# 		)
-# 	end
 
 # 	User.create(
 # 		user_name: "admin1",
@@ -83,6 +102,3 @@ Answer.destroy_all
 # 		)
 # 	}
 
-# 	Traffic.create(user_id: 1, interaction: "click", element: "test_button3")
-
-# 	Page.create(user_id: 1, page_name: "index")

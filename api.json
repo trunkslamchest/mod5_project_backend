@@ -298,7 +298,7 @@
       "incorrect_answers": [
         "Good Will Hunting",
         "Birdman",
-        "Schindler&#039;s List"
+        "Schindler's List"
       ]
     },
     {
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "category": "Entertainment: Music",
+      "category": "Music",
       "type": "multiple",
       "difficulty": "Hard",
       "question": "The key of sharps does the key of G# minor contain?",
