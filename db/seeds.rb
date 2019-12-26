@@ -1,17 +1,17 @@
 # User.destroy_all
 
 # Question.destroy_all
-# Answer.destroy_all
-# Vote.destroy_all
+
+Answer.destroy_all
+Vote.destroy_all
+Comment.destroy_all
 
 # Traffic.destroy_all
 # Page.destroy_all
 
 50.times { Vote.create(user_id: rand(2..20), question_id: rand(1..50), vote_num: rand(0..1))}
 
-# Vote.create(user_id: 1, question_id: 1, vote_num: 1)
-# Vote.create(user_id: 1, question_id: 2, vote_num: 0)
-# Vote.create(user_id: 1, question_id: 3, vote_num: -1)
+50.times { Comment.create(user_id: rand(2..20), question_id: rand(1..50), user_name: Faker::Internet.username, comment_text: Faker::Marketing.buzzwords) }
 
 # Vote.create(user_id: 2, question_id: 1, vote_num: 1)
 # Vote.create(user_id: 2, question_id: 2, vote_num: 0)
