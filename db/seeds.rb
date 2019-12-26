@@ -7,7 +7,7 @@
 # Traffic.destroy_all
 # Page.destroy_all
 
-50.times { Vote.create(user_id: rand(1..20), question_id: rand(1..50), vote_num: rand(0..1))}
+50.times { Vote.create(user_id: rand(2..20), question_id: rand(1..50), vote_num: rand(0..1))}
 
 # Vote.create(user_id: 1, question_id: 1, vote_num: 1)
 # Vote.create(user_id: 1, question_id: 2, vote_num: 0)
