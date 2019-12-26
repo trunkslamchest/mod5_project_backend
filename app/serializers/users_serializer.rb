@@ -1,7 +1,7 @@
 class UsersSerializer
   include FastJsonapi::ObjectSerializer
 
-  attributes :user, :questions, :answers
+  attributes :user, :questions, :answers, :votes
   # attributes :user, :answers
 
 

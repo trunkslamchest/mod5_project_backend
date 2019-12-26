@@ -1,7 +1,8 @@
 class VotesController < ApplicationController
 
 	def index
-		@votes = Vote.order(id: :asc)
+		# byebug
+		@votes = Vote.all
 		render json: VoteSerializer.new(@votes).serialized_json
 	end
 
@@ -11,6 +12,7 @@ class VotesController < ApplicationController
 	end
 
 	def create
+		# byebug
 		vote = Vote.create(create_vote_params)
 		render json: {
 			id: vote.id,

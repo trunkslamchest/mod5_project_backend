@@ -1,6 +1,7 @@
 class QuestionsController < ApplicationController
 
 	def index
+		# byebug
 		@questions = Question.order(id: :desc)
 		render json: QuestionSerializer.new(@questions).serialized_json
 	end
@@ -26,13 +27,13 @@ class QuestionsController < ApplicationController
 		question_update = @question.update(update_question_params)
 		if @question.valid?
 			render json: {
-							id: @question.id,
-							question_desc: @question.question_desc,
-							difficulty: @question.difficulty,
-							category: @question.category,
-							correct_answer: @question.correct_answer,
-							incorrect_answers: @question.incorrect_answers
-						}
+				id: @question.id,
+				question_desc: @question.question_desc,
+				difficulty: @question.difficulty,
+				category: @question.category,
+				correct_answer: @question.correct_answer,
+				incorrect_answers: @question.incorrect_answers
+			}
 		else
 			render json: { errors: @question.errors.full_messages }, status: :unprocessable_entity
 		end
