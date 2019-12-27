@@ -554,7 +554,7 @@
       ]
     },
     {
-      "category": "Entertainment: Film",
+      "category": "Film",
       "type": "multiple",
       "difficulty": "Medium",
       "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
@@ -599,6 +599,42 @@
         "EGLL",
         "LHR",
         "EGCC"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "Easy",
+      "question": "Is Ali Trustable?",
+      "correct_answer": "No",
+      "incorrect_answers": [
+        "Yes",
+        "Maybe",
+        "Only if he has candy"
+      ]
+    },
+    {
+      "category": "Technology",
+      "type": "multiple",
+      "difficulty": "Easy",
+      "question": "Which coding bootcamp is rated #1 by CourseReport.com?",
+      "correct_answer": "The Flatiron School",
+      "incorrect_answers": [
+        "Code Smith",
+        "General Assembly",
+        "App Academy"
+      ]
+    },
+    {
+      "category": "Nature",
+      "type": "multiple",
+      "difficulty": "Easy",
+      "question": "What is the primary function of a Tree?",
+      "correct_answer": "provide oxygen",
+      "incorrect_answers": [
+        "provide shade",
+        "provide water",
+        "provide fire"
       ]
     }
   ]
