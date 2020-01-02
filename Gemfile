@@ -52,4 +52,4 @@ gem 'fast_jsonapi'
 gem 'faker'
 gem 'json'
 
-gem 'wdm', '>= 0.1.0'
+# gem 'wdm', '>= 0.1.0'
