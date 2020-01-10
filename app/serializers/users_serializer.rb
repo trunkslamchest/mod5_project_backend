@@ -1,9 +1,14 @@
 class UsersSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :user
+
+  attributes :user, :answers, :votes, :comments
+  # attributes :user, :answers
+
+
 
   attribute :user do |user_obj|
     {
+      id: user_obj.id,
       user_name: user_obj.user_name,
       email: user_obj.email,
       access: user_obj.access,
@@ -23,4 +28,5 @@ class UsersSerializer
       join_year: user_obj.created_at.strftime("%Y").to_i,
     }
   end
+
 end

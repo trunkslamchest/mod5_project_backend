@@ -2,18 +2,12 @@ class UsersController < ApplicationController
 
 	def index
 		@users = User.order(id: :asc)
-		render json: UsersSerializer.new(@users).serialized_json, include: "**"
+		render json: UsersSerializer.new(@users).serialized_json
 	end
 
   def show
-    # if current_user_id == user_id.to_i
-      @user = User.find(params[:id])
-    #   render json: user, include: :cart_items
-    # else
-    #   render json: { go_away: true }, status: :unauthorized
-    # end
-      # render json: user, include: :cart_items
-		render json: UsersSerializer.new(@user).serialized_json, include: "**"
+    @user = User.find(params[:id])
+		render json: UsersSerializer.new(@user).serialized_json
   end
 
   def update
