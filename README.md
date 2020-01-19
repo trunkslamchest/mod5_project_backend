@@ -7,7 +7,7 @@
 
 <p align="center">
   <img align="center" src="https://img.shields.io/badge/Status-Work%20In%20Progress-000000">
-  <a href="https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6"><img align="center" src="https://img.shields.io/badge/Most%20Recent%20Branch-dev--win64--0.6-000000"></a>
+  <a href="https://github.com/trunkslamchest/mod5_project_backend/"><img align="center" src="https://img.shields.io/badge/Most%20Recent%20Branch-0.6-000000"></a>
   <a href="https://github.com/trunkslamchest/mod5_project_frontend/"><img align="center" src="https://img.shields.io/badge/Frontend%20Repository%20-Click%20Here-000000"></a>
 
 </p> 
@@ -134,20 +134,20 @@
 
 # Summary Of Files
   ### Internal File Structure
-  - [app](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app): Primary location for API configuration
-    - [controllers](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app/controllers): Render/REST/Authorization methods
-    - [models](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app/models): Active Record Associations/Validation methods
-    - [serializers](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app/serializers): Filters for API
-  - [bin](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/bin): Environment configuration files
-  - [config](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/config): Start/Backend configuration files
-  - [db](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/db): Database Configuration files
-  - [Gemfile](https://github.com/trunkslamchest/mod5_project_backend/blob/dev-win64-0.6/Gemfile): Prerequistes & Dependencies
+  - [app](https://github.com/trunkslamchest/mod5_project_backend/app): Primary location for API configuration
+    - [controllers](https://github.com/trunkslamchest/mod5_project_backend/app/controllers): Render/REST/Authorization methods
+    - [models](https://github.com/trunkslamchest/mod5_project_backend/app/models): Active Record Associations/Validation methods
+    - [serializers](https://github.com/trunkslamchest/mod5_project_backend/app/serializers): Filters for API
+  - [bin](https://github.com/trunkslamchest/mod5_project_backend/bin): Environment configuration files
+  - [config](https://github.com/trunkslamchest/mod5_project_backend/config): Start/Backend configuration files
+  - [db](https://github.com/trunkslamchest/mod5_project_backend/db): Database Configuration files
+  - [Gemfile](https://github.com/trunkslamchest/mod5_project_backend/Gemfile): Prerequistes & Dependencies
   
 &nbsp;
 
   ### Internal Dataset
   
-  - [api.json](https://github.com/trunkslamchest/mod5_project_backend/blob/dev-win64-0.6/api.json): Local Source of question database
+  - [api.json](https://github.com/trunkslamchest/mod5_project_backend/api.json): Local Source of question database
 
   ### External Dataset
 
