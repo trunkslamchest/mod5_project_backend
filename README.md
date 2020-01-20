@@ -102,7 +102,7 @@
   - Run `rails db:create mod5-fp` to create a local PostgresQL database
   - Run `rails db:migrate` to create the tables/columns required for proper SmartApp functionality
   - Run `rails db:seed` to populate the columns with rows of "real" data
-  
+  - Create a file called `.env` in the backend directory (/root/backend/) and add `HMAC_SECRET = "<insert a secret string here>"` and `MOD5-FP-BACKEND_DATABASE_PASSWORD = "<insert password used during PostgresQL installation>"` to the file
 
 &nbsp;
   ### First Start
