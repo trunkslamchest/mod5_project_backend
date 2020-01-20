@@ -77,7 +77,7 @@
 &nbsp;
 
   ### Frontend
-  - Clone the most recent branch in this repository
+  - Clone the most recent branch from [The Frontend Repository](https://github.com/trunkslamchest/mod5_project_frontend)
   - Run `npm install` in your bash-enabled terminal to make sure all dependancies are installed
   
   You can run `npm start` but you will not be able to login and use the application correctly. 
@@ -87,7 +87,7 @@
 &nbsp;  
 
   ### Backend
-  The Frontend Repository can be found [here](https://github.com/trunkslamchest/mod5_project_frontend)
+  - Clone the most recent branch from [The Backend Repository](https://github.com/trunkslamchest/mod5_project_backend)
   
   #### Windows Installation
   - Add the line `gem 'wdm', '>= 0.1.0'` to Gemfile before running `bundle install`
