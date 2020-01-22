@@ -20,6 +20,7 @@
   - [Key Features](#key-features)
   - [Goals](#goals)
   - [Challenges](#challenges)
+- [Demo](#demo)
 - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Frontend](#frontend)
@@ -59,6 +60,14 @@
   - Refactoring large portions of the administrative panel to utilize as little communication between the frontend and backend as possible
   - Deployment
   
+&nbsp;
+
+# Demo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=tbCYteYJhAA" target="_blank"><img align="center" src="https://img.youtube.com/vi/tbCYteYJhAA/0.jpg"></a>
+</p>
+
 &nbsp;
 
 <a href="https://github.com/trunkslamchest/mod5_project_backend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
