@@ -6,10 +6,12 @@
 &nbsp;
 
 <p align="center">
-  <img align="center" src="https://img.shields.io/badge/Status-Work%20In%20Progress-000000">
-  <a href="https://github.com/trunkslamchest/mod5_project_backend/"><img align="center" src="https://img.shields.io/badge/Most%20Recent%20Branch-0.6-000000"></a>
-  <a href="https://github.com/trunkslamchest/mod5_project_frontend/"><img align="center" src="https://img.shields.io/badge/Frontend%20Repository%20-Click%20Here-000000"></a>
+  <a href="https://github.com/trunkslamchest/mod5_project_frontend"><img align="center" src="https://img.shields.io/badge/Most%20Recent%20Branch-0.6-000000"></a>
+  <a href="https://github.com/trunkslamchest/mod5_project_backend/"><img align="center" src="https://img.shields.io/badge/Backend%20Repository%20-Click%20Here-000000"></a>
+</p>
 
+<p align="center">
+  <img align="center" src="https://img.shields.io/badge/Status-Work%20In%20Progress-000000">
 </p> 
 
 # Contents
