@@ -66,7 +66,9 @@
 # Demo
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=tbCYteYJhAA" target="_blank"><img align="center" src="https://img.youtube.com/vi/tbCYteYJhAA/0.jpg"></a>
+  <a href="https://www.youtube.com/watch?v=tbCYteYJhAA" target="_blank">
+    <img align="center" src="https://img.youtube.com/vi/tbCYteYJhAA/0.jpg">
+  </a>
 </p>
 
 &nbsp;
