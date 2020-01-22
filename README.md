@@ -31,6 +31,7 @@
   - [Internal Dataset](#internal-dataset)
   - [External Dataset](#external-dataset)
 - [Credits](#credits)
+- [Contact](#contact)
 
 &nbsp;
 
