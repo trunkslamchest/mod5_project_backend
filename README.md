@@ -81,23 +81,11 @@
   ### Frontend
   - Clone the most recent branch from [The Frontend Repository](https://github.com/trunkslamchest/mod5_project_frontend)
   - Run `npm install` in your bash-enabled terminal to make sure all dependancies are installed
-  
-  You can run `npm start` but you will not be able to login and use the application correctly. 
-  
-  **The Frontend Repository is a required component of SmartApp**
-  
-&nbsp;  
 
   ### Backend
   - Clone the most recent branch from [The Backend Repository](https://github.com/trunkslamchest/mod5_project_backend)
-  
-  #### Windows Installation
-  - Add the line `gem 'wdm', '>= 0.1.0'` to Gemfile before running `bundle install`
-  
-  #### MacOS Installation
-  - Remove the line `gem 'wdm', '>= 0.1.0'` from Gemfile before running `bundle install`
- 
-  #### Universal Installation
+    - If you are running on Windows, add `gem 'wdm', '>= 0.1.0'` to Gemfile before running `bundle install`
+    - If you are running on macOS, remove `gem 'wdm', '>= 0.1.0'` from Gemfile before running `bundle install`
   - Run `rvm use Ruby-2.6.5` to make sure you are using the correct version of Ruby 
   - Run `bundle install` to install all gems/dependancies required for SmartApp 
   - Run `rails db:create mod5-fp` to create a local PostgresQL database
