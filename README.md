@@ -136,14 +136,14 @@
 
 # Summary Of Files
   ### Internal File Structure
-  - [app](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/app): Primary location for API configuration
-    - [controllers](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/app/controllers): Render/REST/Authorization methods
-    - [models](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/app/models): Active Record Associations/Validation methods
-    - [serializers](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/app/serializers): Filters for API
-  - [bin](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/bin): Environment configuration files
-  - [config](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/config): Start/Backend configuration files
-  - [db](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/db): Database Configuration files
-  - [Gemfile](https://github.com/trunkslamchest/mod5_project_frontend/tree/master/Gemfile): Prerequistes & Dependencies
+  - [app](https://github.com/trunkslamchest/mod5_project_backend/tree/master/app): Primary location for API configuration
+    - [controllers](https://github.com/trunkslamchest/mod5_project_backend/tree/master/app/controllers): Render/REST/Authorization methods
+    - [models](https://github.com/trunkslamchest/mod5_project_backend/tree/master/app/models): Active Record Associations/Validation methods
+    - [serializers](https://github.com/trunkslamchest/mod5_project_backend/tree/master/app/serializers): Filters for API
+  - [bin](https://github.com/trunkslamchest/mod5_project_backend/tree/master/bin): Environment configuration files
+  - [config](https://github.com/trunkslamchest/mod5_project_backend/tree/master/config): Start/Backend configuration files
+  - [db](https://github.com/trunkslamchest/mod5_project_backend/tree/master/db): Database Configuration files
+  - [Gemfile](https://github.com/trunkslamchest/mod5_project_backend/tree/master/Gemfile): Prerequistes & Dependencies
   
 &nbsp;
 
