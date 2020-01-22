@@ -175,7 +175,10 @@
   - [Ruby On Rails](https://rubyonrails.org/)
   
 &nbsp;
-  
-<a href="https://github.com/trunkslamchest/mod5_project_backend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
+
+# Contact
+  - austin.smith.dev@gmail.com
+  - <a href="https://www.linkedin.com/in/austin-smith-8a536214a/">LinkedIn</a>
+  - <a href="https://medium.com/@trunk9slamchest">Medium</a>
 
 &nbsp;
