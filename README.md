@@ -47,9 +47,6 @@
   - Access Restricted administrative panel featuring realtime page & element tracking & in-browser database editor
   - Vote/Comment on trivia questions after answering a question
   - Conditional rendering and keyframe animations  
-  - Message other users (TBA)
-  - Challenge other users to answer questions (TBA)
-  - Custom Statisically Analytics Queries for Administrators/Developers (TBA)
   - Fun for the whole family
   
   ### Goals
