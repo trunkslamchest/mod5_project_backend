@@ -98,7 +98,6 @@
   - Remove the line `gem 'wdm', '>= 0.1.0'` from Gemfile before running `bundle install`
  
   #### Universal Installation
-  - Clone the most recent branch from The Backend Repository
   - Run `rvm use Ruby-2.6.5` to make sure you are using the correct version of Ruby 
   - Run `bundle install` to install all gems/dependancies required for SmartApp 
   - Run `rails db:create mod5-fp` to create a local PostgresQL database
