@@ -2,13 +2,13 @@
 <p align="center"><img width=75% src="https://github.com/trunkslamchest/mod5_project_frontend/blob/dev-win64-0.6/src/assets/index_logo_blue3.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![CSS](https://img.shields.io/badge/CSS-3.0-1572B6) ![HTML](https://img.shields.io/badge/HTML-5.2-E34F26) ![Javascript](https://img.shields.io/badge/Javascript-1.8.5-F7DF1E) ![PostgresQL](https://img.shields.io/badge/Postgresql-12.1-336791) ![ReactJS](https://img.shields.io/badge/React.JS-16.12.0-61DAFB) ![Ruby](https://img.shields.io/badge/Ruby-2.6.5-CC342D) ![Ruby On Rails](https://img.shields.io/badge/Ruby%20On%20Rails-6.0.2.1-cc0600)
+![CSS](https://img.shields.io/badge/CSS-3.0-1572B6) ![HTML](https://img.shields.io/badge/HTML-5.2-E34F26) ![Javascript](https://img.shields.io/badge/Javascript-1.8.5-F7DF1E) ![PostgresQL](https://img.shields.io/badge/Postgresql-12.1-336791) ![ReactJS](https://img.shields.io/badge/React.JS-16.13.1-61DAFB) ![Ruby](https://img.shields.io/badge/Ruby-2.6.5-CC342D) ![Ruby On Rails](https://img.shields.io/badge/Ruby%20On%20Rails-6.0.3.2-cc0600)
 &nbsp;
 
 <p align="center">
   <img align="center" src="https://img.shields.io/badge/Status-Work%20In%20Progress-000000">
-  <a href="https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6"><img align="center" src="https://img.shields.io/badge/Most%20Recent%20Branch-dev--win64--0.6-000000"></a>
-  <a href="https://github.com/trunkslamchest/mod5_project_frontend/"><img align="center" src="https://img.shields.io/badge/Frontend%20Repository%20-Click%20Here-000000"></a>
+  <a href="https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.72"><img align="center" src="https://img.shields.io/badge/Most%20Recent%20Branch-dev--win64--0.72-000000"></a>
+  <a href="https://github.com/trunkslamchest/mod5_project_backend/"><img align="center" src="https://img.shields.io/badge/Backend%20Repository%20-Click%20Here-000000"></a>
 
 </p> 
 
@@ -25,7 +25,6 @@
     - [First Start](#first-start)
 - [Summary Of Files](#summary-of-files)
   - [Internal File Structure](#internal-file-structure)
-  - [Internal Dataset](#internal-dataset)
   - [External Dataset](#external-dataset)
 - [Credits](#credits)
 
@@ -62,7 +61,7 @@
   
 &nbsp;
 
-<a href="https://github.com/trunkslamchest/mod5_project_backend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
+<a href="https://github.com/trunkslamchest/mod5_project_frontend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
 
 &nbsp;
 
@@ -82,12 +81,12 @@
   
   You can run `npm start` but you will not be able to login and use the application correctly. 
   
-  **The Frontend Repository is a required component of SmartApp**
+  **The Backend Repository is a required component of SmartApp**
   
 &nbsp;  
 
   ### Backend
-  The Frontend Repository can be found [here](https://github.com/trunkslamchest/mod5_project_frontend)
+  The Backend Repository can be found [here](https://github.com/trunkslamchest/mod5_project_backend)
   
   #### Windows Installation
   - Add the line `gem 'wdm', '>= 0.1.0'` to Gemfile before running `bundle install`
@@ -128,26 +127,27 @@
   
 &nbsp;
   
-<a href="https://github.com/trunkslamchest/mod5_project_backend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
+<a href="https://github.com/trunkslamchest/mod5_project_frontend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
 
 &nbsp;
 
 # Summary Of Files
   ### Internal File Structure
-  - [app](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app): Primary location for API configuration
-    - [controllers](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app/controllers): Render/REST/Authorization methods
-    - [models](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app/models): Active Record Associations/Validation methods
-    - [serializers](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/app/serializers): Filters for API
-  - [bin](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/bin): Environment configuration files
-  - [config](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/config): Start/Backend configuration files
-  - [db](https://github.com/trunkslamchest/mod5_project_backend/tree/dev-win64-0.6/db): Database Configuration files
-  - [Gemfile](https://github.com/trunkslamchest/mod5_project_backend/blob/dev-win64-0.6/Gemfile): Prerequistes & Dependencies
+  - [docs](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/docs): Documents for Development Purposes
+  - [public](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/public): Various Assets for General Purposes
+  - [src](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src): Root Frontend
+    - [admin](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/admin): Administrative Panel
+      - [db_edit](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/admin/db_edit): In Browser Database Editor
+      - [rtv](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/admin/rtv): Real Time Traffic Viewer
+    - [assets](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/assets): Art Assets
+    - [css](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/css): CSS stylesheets
+    - [docs](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/docs): Terms Of Service/Privacy Policy/Disclaimer
+    - [question](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/question): Core Gameplay Loop Functionality
+    - [user](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/user): All files pertaining to User Specific Actions
+      - [dashboard](https://github.com/trunkslamchest/mod5_project_frontend/tree/dev-win64-0.6/src/user/dashboard): User Dashboard Functionality
+  - [package.json](https://github.com/trunkslamchest/mod5_project_frontend/blob/dev-win64-0.6/package.json): Prerequisite Modules/Dependancies
   
 &nbsp;
-
-  ### Internal Dataset
-  
-  - [api.json](https://github.com/trunkslamchest/mod5_project_backend/blob/dev-win64-0.6/api.json): Local Source of question database
 
   ### External Dataset
 
@@ -155,7 +155,7 @@
   
 &nbsp;
   
-<a href="https://github.com/trunkslamchest/mod5_project_backend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
+<a href="https://github.com/trunkslamchest/mod5_project_frontend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
 
 &nbsp;
 
@@ -176,6 +176,6 @@
   
 &nbsp;
   
-<a href="https://github.com/trunkslamchest/mod5_project_backend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
+<a href="https://github.com/trunkslamchest/mod5_project_frontend/blob/master/README.md#contents"><img src="https://img.shields.io/badge/^-Back%20To%20Top-000000"></a>
 
 &nbsp;
